@@ -1,1 +1,12 @@
 Write your Answer here
+public boolean CodeWordChecker(int start, int end, str s){
+  if ((this.length > start)&&(this.length < end)){
+    if (this.indexOf(s) > -1){
+      return false;}
+    return true;}
+}
+public boolean CodeWordChecker(str s){
+  if(this.indexOf(s) > -1){
+    return false;}
+  return true;
+}
