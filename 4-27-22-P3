@@ -1,5 +1,5 @@
 /*Write your Answer here*/
-public class CodeWordChecker implements StringChecker(){
+public class CodeWordChecker implements StringChecker{
   int start = 6;
   int end = 20;
   String str;
