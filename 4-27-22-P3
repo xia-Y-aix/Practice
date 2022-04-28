@@ -1,1 +1,25 @@
-Write your Answer here
+/*Write your Answer here*/
+public class CodeWordChecker implements StringChecker(){
+  int start = 6;
+  int end = 20;
+  String str;
+  public CodeWordChecker(int a, int b, String c){
+    start = a;
+    end = b;
+    str = c;
+  }
+  public CodeWordChecker(String c){
+    str = c;
+  }
+  public boolean isValid(String strCompare){
+    if(strCompare.length()>=start)&&(strCompare.length()<=end){
+      if(strCompare.indexOf(str)>-1){
+        return false;
+      }
+      else{
+        return true;
+      }
+    }
+    return false;
+  }
+}
